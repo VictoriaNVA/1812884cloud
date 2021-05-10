@@ -4,6 +4,13 @@
 This project uses python with Twitter API and Apache Spark Streaming to receive a live data stream of tweets, and select the most frequently occurring words and hashtags. The data is presented as a dataframe table in the console, in 60 seconds intervals. The user chooses whether to display the top 10 trending hashtags or top 10 trending words before the stream runs. The running dataframe is exported as a CSV in order to be visualised as a simple Word Cloud.
 Download the python files and create a new project in a python IDE such as PyCharm, adding the three files, twitterStream.py, sparkStreaming,py and wordCloud.py.
 
+### References
+This project was completed following these articles / tutorials:
+- [Article](https://www.toptal.com/apache/apache-spark-streaming-twitter)
+- [YouTube tutorial](https://www.youtube.com/watch?v=gf9VtGkQcwM)
+- [Jupyter Notebook](https://pgirish.github.io/spark-project/index.html)
+- [Word Cloud](https://www.datacamp.com/community/tutorials/wordcloud-python)
+
 ## Requirements
 - Python
 - Python IDE
